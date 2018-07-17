@@ -43,7 +43,7 @@
     padding-bottom: 10px;
     overflow-x: scroll;
     display: flex;
-    .courses{
+    .course{
       float: left;
       display: inline-block;
       flex: 1;
@@ -79,7 +79,7 @@
     overflow-x: scroll;
     white-space: nowrap;
     padding-left: 10px;
-    .courses{
+    .course{
       padding-right: 15px;
     }
   }

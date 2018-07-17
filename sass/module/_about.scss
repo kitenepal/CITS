@@ -1,11 +1,16 @@
 .about{
-	img{
-		padding: 10px 0;
-		transition: 0.2s;
-		&:hover{
-			border-bottom-right-radius: 50px;
+	.heading{
+		span{
+			font-size: 20px;
 		}
 	}
+	// img{
+	// 	padding: 10px 0;
+	// 	transition: 0.2s;
+	// 	&:hover{
+	// 		border-bottom-right-radius: 50px;
+	// 	}
+	// }
 }
 
 .owl-carousel .owl-nav{
