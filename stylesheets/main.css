@@ -379,6 +379,6 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   padding: 20px 10px;
 }
 /* line 22, ../sass/module/_courses-tab.scss */
-.courses .carousel {
-  padding-top: 45px;
+.courses .team-block {
+  padding-top: 20px;
 }
