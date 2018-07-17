@@ -378,6 +378,10 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 .courses .tab-content {
   padding: 20px 10px;
 }
+/* line 23, ../sass/module/_courses-tab.scss */
+.courses .syllabus .active {
+  background-color: #3f145b;
+}
 
 /* line 1, ../sass/module/_contact.scss */
 .contact {
