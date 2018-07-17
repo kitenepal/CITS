@@ -219,23 +219,18 @@ a:hover {
   outline: none;
 }
 
-/* line 2, ../sass/module/_about.scss */
-.about img {
-  padding: 10px 0;
-  transition: 0.2s;
-}
-/* line 5, ../sass/module/_about.scss */
-.about img:hover {
-  border-bottom-right-radius: 50px;
+/* line 3, ../sass/module/_about.scss */
+.about .heading span {
+  font-size: 20px;
 }
 
-/* line 12, ../sass/module/_about.scss */
+/* line 17, ../sass/module/_about.scss */
 .owl-carousel .owl-nav button {
   outline: none;
   width: 50%;
   transform: translateY(-12px);
 }
-/* line 17, ../sass/module/_about.scss */
+/* line 22, ../sass/module/_about.scss */
 .owl-carousel .owl-nav i {
   color: #fff !important;
   background-color: #3f145b !important;
@@ -243,12 +238,12 @@ a:hover {
   width: 100%;
   transition: 0.2s;
 }
-/* line 23, ../sass/module/_about.scss */
+/* line 28, ../sass/module/_about.scss */
 .owl-carousel .owl-nav i:active {
   background: #905bb3 !important;
 }
 
-/* line 30, ../sass/module/_about.scss */
+/* line 35, ../sass/module/_about.scss */
 .carousel-wrap .owl-carousel .extra {
   position: absolute;
   z-index: 99;
@@ -262,7 +257,7 @@ a:hover {
   background: rgba(63, 20, 91, 0.4);
   transition: 0.2s;
 }
-/* line 43, ../sass/module/_about.scss */
+/* line 48, ../sass/module/_about.scss */
 .carousel-wrap .owl-carousel:hover .extra {
   opacity: 1;
 }
