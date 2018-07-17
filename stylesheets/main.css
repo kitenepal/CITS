@@ -116,6 +116,10 @@ a:hover {
   display: flex;
 }
 /* line 46, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv::-webkit-scrollbar {
+  display: none;
+}
+/* line 49, ../sass/module/_nav.scss */
 .navbar-inverse .nav-serv .course {
   float: left;
   display: inline-block;
@@ -124,47 +128,51 @@ a:hover {
   transition: 0.2s;
   cursor: pointer;
 }
-/* line 53, ../sass/module/_nav.scss */
+/* line 56, ../sass/module/_nav.scss */
 .navbar-inverse .nav-serv .course:hover {
   box-shadow: 0px 0px 5px 4px #703f90;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 61, ../sass/module/_nav.scss */
+  /* line 64, ../sass/module/_nav.scss */
   .trans-back .nav-serv {
     padding-top: 10px;
   }
 
-  /* line 65, ../sass/module/_nav.scss */
+  /* line 68, ../sass/module/_nav.scss */
   .navbar-nav {
     background: #3f145b;
     margin: 0.5px -15px;
   }
 
-  /* line 69, ../sass/module/_nav.scss */
+  /* line 72, ../sass/module/_nav.scss */
   .navbar-inverse .navbar-collapse {
     border-color: transparent;
   }
 }
 @media screen and (max-width: 450px) {
-  /* line 74, ../sass/module/_nav.scss */
+  /* line 77, ../sass/module/_nav.scss */
   .trans-back .nav-serv {
     padding-top: 10px;
   }
 
-  /* line 77, ../sass/module/_nav.scss */
+  /* line 80, ../sass/module/_nav.scss */
   .navbar-inverse .nav-serv {
     width: 400px;
     overflow-x: scroll;
     white-space: nowrap;
     padding-left: 10px;
   }
-  /* line 82, ../sass/module/_nav.scss */
+  /* line 85, ../sass/module/_nav.scss */
+  .navbar-inverse .nav-serv::-webkit-scrollbar {
+    display: none;
+  }
+  /* line 88, ../sass/module/_nav.scss */
   .navbar-inverse .nav-serv .course {
     padding-right: 15px;
   }
 }
-/* line 88, ../sass/module/_nav.scss */
+/* line 94, ../sass/module/_nav.scss */
 .btn--md {
   border-radius: 50%;
   position: fixed;
@@ -172,11 +180,11 @@ a:hover {
   top: 50%;
   right: 0;
 }
-/* line 94, ../sass/module/_nav.scss */
+/* line 100, ../sass/module/_nav.scss */
 .btn--md:focus {
   outline: none;
 }
-/* line 97, ../sass/module/_nav.scss */
+/* line 103, ../sass/module/_nav.scss */
 .btn--md:active {
   outline: none;
 }
