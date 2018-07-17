@@ -350,10 +350,6 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 }
 
 /* line 70, ../sass/module/_clients.scss */
-.clients .list-group-item {
-  padding: 20px 0;
-}
-/* line 73, ../sass/module/_clients.scss */
 .clients--content {
   padding-bottom: 10px;
   margin-bottom: 20px;
@@ -362,18 +358,18 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   transition: all 0.2s ease-in-out;
   color: #3f145b;
 }
-/* line 80, ../sass/module/_clients.scss */
+/* line 77, ../sass/module/_clients.scss */
 .clients--content img {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-/* line 83, ../sass/module/_clients.scss */
+/* line 80, ../sass/module/_clients.scss */
 .clients--content h4 {
   text-align: center;
   padding: 5px 0;
   margin-top: 20px;
   font-weight: bold;
 }
-/* line 89, ../sass/module/_clients.scss */
+/* line 86, ../sass/module/_clients.scss */
 .clients--content:hover {
   transform: scale(1.02);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -381,8 +377,37 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 }
 
 @media only screen and (max-width: 750px) {
-  /* line 99, ../sass/module/_clients.scss */
+  /* line 96, ../sass/module/_clients.scss */
   .clients div.bhoechie-tab-menu div.list-group > a.active:after {
     display: none;
   }
+}
+/* line 1, ../sass/module/_services.scss */
+.courses {
+  background-color: rgba(63, 20, 91, 0.8);
+}
+/* line 3, ../sass/module/_services.scss */
+.courses .heading {
+  color: #fff;
+}
+/* line 7, ../sass/module/_services.scss */
+.courses .nav-tabs li a {
+  color: #3f145b;
+}
+/* line 10, ../sass/module/_services.scss */
+.courses .nav-tabs li a:hover {
+  color: #3f145b;
+}
+/* line 15, ../sass/module/_services.scss */
+.courses .nav-tabs > li.active > a, .courses .nav-tabs > li.active > a:focus, .courses .nav-tabs > li.active > a:hover {
+  color: #3f145b;
+  font-weight: bold;
+}
+/* line 19, ../sass/module/_services.scss */
+.courses .tab-content {
+  padding: 20px 10px;
+}
+/* line 22, ../sass/module/_services.scss */
+.courses .carousel {
+  padding-top: 45px;
 }
