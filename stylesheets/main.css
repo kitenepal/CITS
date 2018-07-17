@@ -218,3 +218,176 @@ a:hover {
 .btn--md:active {
   outline: none;
 }
+
+/* line 2, ../sass/module/_about.scss */
+.about img {
+  padding: 10px 0;
+  transition: 0.2s;
+}
+/* line 5, ../sass/module/_about.scss */
+.about img:hover {
+  border-bottom-right-radius: 50px;
+}
+
+/* line 12, ../sass/module/_about.scss */
+.owl-carousel .owl-nav button {
+  outline: none;
+  width: 50%;
+  transform: translateY(-12px);
+}
+/* line 17, ../sass/module/_about.scss */
+.owl-carousel .owl-nav i {
+  color: #fff !important;
+  background-color: #3f145b !important;
+  padding: 3px 10px !important;
+  width: 100%;
+  transition: 0.2s;
+}
+/* line 23, ../sass/module/_about.scss */
+.owl-carousel .owl-nav i:active {
+  background: #905bb3 !important;
+}
+
+/* line 30, ../sass/module/_about.scss */
+.carousel-wrap .owl-carousel .extra {
+  position: absolute;
+  z-index: 99;
+  bottom: 10px;
+  right: 0;
+  opacity: 0;
+  padding: 10px 0px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background: rgba(63, 20, 91, 0.4);
+  transition: 0.2s;
+}
+/* line 43, ../sass/module/_about.scss */
+.carousel-wrap .owl-carousel:hover .extra {
+  opacity: 1;
+}
+
+/*  bhoechie tab */
+/* line 2, ../sass/module/_clients.scss */
+div.bhoechie-tab-container {
+  z-index: 10;
+  background-color: #ffffff;
+  padding-bottom: 10px !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+
+/* line 17, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+/* line 22, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group {
+  margin-bottom: 0;
+}
+
+/* line 25, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a {
+  margin-bottom: 0;
+}
+
+/* line 28, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a .glyphicon,
+div.bhoechie-tab-menu div.list-group > a .fa {
+  color: #3f145b;
+}
+
+/* line 32, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a:first-child {
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+
+/* line 36, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a:last-child {
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+
+/* line 40, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a.active,
+div.bhoechie-tab-menu div.list-group > a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group > a.active .fa {
+  background-color: #3f145b;
+  color: #ffffff;
+}
+
+/* line 46, ../sass/module/_clients.scss */
+div.bhoechie-tab-menu div.list-group > a.active:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #3f145b;
+}
+
+/* line 58, ../sass/module/_clients.scss */
+div.bhoechie-tab-content {
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* line 65, ../sass/module/_clients.scss */
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+  display: none;
+}
+
+/* line 70, ../sass/module/_clients.scss */
+.clients .list-group-item {
+  padding: 20px 0;
+}
+/* line 73, ../sass/module/_clients.scss */
+.clients--content {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  color: #3f145b;
+}
+/* line 80, ../sass/module/_clients.scss */
+.clients--content img {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+/* line 83, ../sass/module/_clients.scss */
+.clients--content h4 {
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+  font-weight: bold;
+}
+/* line 89, ../sass/module/_clients.scss */
+.clients--content:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  cursor: zoom-in;
+}
+
+@media only screen and (max-width: 750px) {
+  /* line 99, ../sass/module/_clients.scss */
+  .clients div.bhoechie-tab-menu div.list-group > a.active:after {
+    display: none;
+  }
+}
