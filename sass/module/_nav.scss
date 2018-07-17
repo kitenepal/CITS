@@ -5,7 +5,7 @@
   .nav-serv{
     transition: 0.5s;
     padding-top: 20px;
-    .group:hover{
+    .courses:hover{
       box-shadow: 0px 0px 5px 4px $primary-color!important;
     }
   }
@@ -41,51 +41,23 @@
     color: #fff;
     transition: 0.5s;
     padding-bottom: 10px;
-    .group{
-      display: flex;
+    overflow-x: scroll;
+    display: flex;
+    .courses{
+      float: left;
+      display: inline-block;
+      flex: 1;
+      padding-right: 8px;
       transition: 0.2s;
       cursor:pointer;
       &:hover{
         box-shadow: 0px 0px 5px 4px #703f90;
       }
-      .icon{
-        width: 25%;
-      }
-      .caption{
-        width: 50%;
-        padding-top: 15px;
-        .txt-dis{
-          text-align: left;
-        }
-      }
     }
   }
 }
 
-
-@media screen and (min-width:767px){
-  .nav-serv--md{
-    display: none;
-  }
-}
 @media screen and (max-width:767px){
-  .navbar-inverse .nav-serv{
-    padding: 7px 0px;
-    .group .icon{
-      width: 65%;
-      margin: 0px auto;
-    }
-  }
-  .nav-serv{
-    display: none;
-  }
-  .nav-serv--md{
-    display: block;
-    position: absolute;
-    .col-xs-2{
-      margin: 0px auto;
-    }
-  }
   .trans-back .nav-serv {
     padding-top: 10px;
   }
@@ -99,15 +71,17 @@
   }
 }
 @media screen and (max-width:450px){
-  .navbar-inverse .nav-serv .group .caption{
-    padding-top: 0px;
-  }
   .trans-back .nav-serv{
     padding-top: 10px;
   }
-  .nav-serv .col-xs-3{
-    padding-right: 5px;
+  .navbar-inverse .nav-serv{
+    width: 400px;
+    overflow-x: scroll;
+    white-space: nowrap;
     padding-left: 10px;
+    .courses{
+      padding-right: 15px;
+    }
   }
 }
 
