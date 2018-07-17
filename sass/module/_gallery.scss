@@ -1,0 +1,24 @@
+.gallery--item {
+  position: relative;
+  padding-top: 15px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(63, 20, 91, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  cursor: pointer;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery--item:hover .overlay {
+  opacity: 1;
+}

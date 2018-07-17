@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+/* line 2, ../sass/base/_base.scss */
+body {
+  background-image: url("../img/b-g.jpg");
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+/* line 7, ../sass/base/_base.scss */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 12, ../sass/base/_base.scss */
+.section-padding {
+  padding: 3em 0;
+}
+
+/* line 17, ../sass/base/_base.scss */
+.heading {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 24, ../sass/base/_base.scss */
+.primary-btn {
+  text-align: center;
+  text-transform: uppercase;
+  background: #3f145b;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  border: none;
+  font-weight: 500;
+}
+/* line 35, ../sass/base/_base.scss */
+.primary-btn:hover, .primary-btn:focus {
+  background-color: #5b0791;
+  color: #fff;
+}
+
+/* line 41, ../sass/base/_base.scss */
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 47, ../sass/base/_base.scss */
+.owl-nav {
+  text-align: center;
+}
+/* line 49, ../sass/base/_base.scss */
+.owl-nav button {
+  font-size: 1.5em !important;
+}
+
+/* line 1, ../sass/module/_nav.scss */
+.trans-back {
+  background-color: transparent !important;
+  box-shadow: 0px 0px 0px 0px #3f145b !important;
+  transition: 0.5s;
+}
+/* line 5, ../sass/module/_nav.scss */
+.trans-back .nav-serv {
+  transition: 0.5s;
+  padding-top: 20px;
+}
+/* line 8, ../sass/module/_nav.scss */
+.trans-back .nav-serv .group:hover {
+  box-shadow: 0px 0px 5px 4px #3f145b !important;
+}
+
+/* line 14, ../sass/module/_nav.scss */
+.navbar {
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px 1px #3f145b;
+}
+
+/* line 18, ../sass/module/_nav.scss */
+.navbar-inverse {
+  background-color: #2f0e44;
+  transition: 0.5s;
+  border: none;
+}
+/* line 23, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  padding: 3px 10px;
+}
+/* line 26, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-brand img {
+  width: 45px;
+}
+/* line 29, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-brand:hover {
+  color: #fff;
+}
+/* line 33, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+/* line 35, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: #5b0791;
+}
+/* line 40, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv {
+  color: #fff;
+  transition: 0.5s;
+  padding-bottom: 10px;
+}
+/* line 44, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group {
+  display: flex;
+  transition: 0.2s;
+  cursor: pointer;
+}
+/* line 48, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group:hover {
+  box-shadow: 0px 0px 5px 4px #703f90;
+}
+/* line 51, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group .icon {
+  width: 25%;
+}
+/* line 54, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group .caption {
+  width: 50%;
+  padding-top: 15px;
+}
+/* line 57, ../sass/module/_nav.scss */
+.navbar-inverse .nav-serv .group .caption .txt-dis {
+  text-align: left;
+}
+
+@media screen and (min-width: 767px) {
+  /* line 67, ../sass/module/_nav.scss */
+  .nav-serv--md {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 72, ../sass/module/_nav.scss */
+  .navbar-inverse .nav-serv {
+    padding: 7px 0px;
+  }
+  /* line 74, ../sass/module/_nav.scss */
+  .navbar-inverse .nav-serv .group .icon {
+    width: 65%;
+    margin: 0px auto;
+  }
+
+  /* line 79, ../sass/module/_nav.scss */
+  .nav-serv {
+    display: none;
+  }
+
+  /* line 82, ../sass/module/_nav.scss */
+  .nav-serv--md {
+    display: block;
+    position: absolute;
+  }
+  /* line 85, ../sass/module/_nav.scss */
+  .nav-serv--md .col-xs-2 {
+    margin: 0px auto;
+  }
+
+  /* line 89, ../sass/module/_nav.scss */
+  .trans-back .nav-serv {
+    padding-top: 10px;
+  }
+
+  /* line 93, ../sass/module/_nav.scss */
+  .navbar-nav {
+    background: #3f145b;
+    margin: 0.5px -15px;
+  }
+
+  /* line 97, ../sass/module/_nav.scss */
+  .navbar-inverse .navbar-collapse {
+    border-color: transparent;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* line 102, ../sass/module/_nav.scss */
+  .navbar-inverse .nav-serv .group .caption {
+    padding-top: 0px;
+  }
+
+  /* line 105, ../sass/module/_nav.scss */
+  .trans-back .nav-serv {
+    padding-top: 10px;
+  }
+
+  /* line 108, ../sass/module/_nav.scss */
+  .nav-serv .col-xs-3 {
+    padding-right: 5px;
+    padding-left: 10px;
+  }
+}
+/* line 114, ../sass/module/_nav.scss */
+.btn--md {
+  border-radius: 50%;
+  position: fixed;
+  z-index: 777;
+  top: 50%;
+  right: 0;
+}
+/* line 120, ../sass/module/_nav.scss */
+.btn--md:focus {
+  outline: none;
+}
+/* line 123, ../sass/module/_nav.scss */
+.btn--md:active {
+  outline: none;
+}

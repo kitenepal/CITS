@@ -1,0 +1,126 @@
+.trans-back{
+  background-color: transparent!important;
+  box-shadow: 0px 0px 0px 0px #3f145b!important;
+  transition: 0.5s;
+  .nav-serv{
+    transition: 0.5s;
+    padding-top: 20px;
+    .group:hover{
+      box-shadow: 0px 0px 5px 4px $primary-color!important;
+    }
+  }
+}
+
+.navbar{
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px 1px #3f145b;
+}
+.navbar-inverse{
+	background-color: #2f0e44;
+  transition: 0.5s;
+
+	border: none;
+  .navbar-brand{
+    color: #fff;
+    padding: 3px 10px;
+    img{
+      width: 45px;
+    }
+    &:hover{
+      color: #fff;
+    }
+  }
+	.navbar-nav>li>a{
+		color: #fff;
+		&:hover{
+			color: #fff;
+			background-color: #5b0791;
+		}
+	}
+  .nav-serv{
+    color: #fff;
+    transition: 0.5s;
+    padding-bottom: 10px;
+    .group{
+      display: flex;
+      transition: 0.2s;
+      cursor:pointer;
+      &:hover{
+        box-shadow: 0px 0px 5px 4px #703f90;
+      }
+      .icon{
+        width: 25%;
+      }
+      .caption{
+        width: 50%;
+        padding-top: 15px;
+        .txt-dis{
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width:767px){
+  .nav-serv--md{
+    display: none;
+  }
+}
+@media screen and (max-width:767px){
+  .navbar-inverse .nav-serv{
+    padding: 7px 0px;
+    .group .icon{
+      width: 65%;
+      margin: 0px auto;
+    }
+  }
+  .nav-serv{
+    display: none;
+  }
+  .nav-serv--md{
+    display: block;
+    position: absolute;
+    .col-xs-2{
+      margin: 0px auto;
+    }
+  }
+  .trans-back .nav-serv {
+    padding-top: 10px;
+  }
+  //navbar style in responsive
+  .navbar-nav {
+    background: $primary-color;
+    margin: 0.5px -15px;
+  }
+  .navbar-inverse .navbar-collapse{
+    border-color: transparent;
+  }
+}
+@media screen and (max-width:450px){
+  .navbar-inverse .nav-serv .group .caption{
+    padding-top: 0px;
+  }
+  .trans-back .nav-serv{
+    padding-top: 10px;
+  }
+  .nav-serv .col-xs-3{
+    padding-right: 5px;
+    padding-left: 10px;
+  }
+}
+
+.btn--md{
+  border-radius: 50%;
+  position: fixed;
+  z-index: 777;
+  top: 50%;
+  right: 0;
+  &:focus{
+    outline: none;
+  }
+  &:active{
+    outline: none;
+  }
+}

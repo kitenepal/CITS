@@ -1,0 +1,17 @@
+.team{
+	h2{
+		font-weight: bold;
+	}
+	span{
+		font-style: italic;
+	}
+	p{
+		padding: 10px 0;
+	}
+	.social{
+		color: $primary-color;
+	}
+	&--member{
+		padding: 20px 0;
+	}
+}

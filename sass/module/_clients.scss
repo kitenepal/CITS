@@ -1,0 +1,103 @@
+/*  bhoechie tab */
+div.bhoechie-tab-container{
+  z-index: 10;
+  background-color: #ffffff;
+  padding-bottom: 10px !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border:1px solid #ddd;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+  color: $primary-color;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: $primary-color;
+  color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid $primary-color;
+}
+
+div.bhoechie-tab-content{
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+
+.clients{
+  .list-group-item{
+    padding: 20px 0;
+  }
+  &--content{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+    color: $primary-color;
+    img{
+      border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    h4{
+      text-align: center;
+      padding: 5px 0;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    &:hover{
+      transform: scale(1.02);
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      cursor: zoom-in;
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+    .clients{
+      div.bhoechie-tab-menu div.list-group > a.active:after{
+        display: none;
+      }
+    }
+}
