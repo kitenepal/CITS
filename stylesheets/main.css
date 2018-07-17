@@ -378,7 +378,3 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 .courses .tab-content {
   padding: 20px 10px;
 }
-/* line 22, ../sass/module/_courses-tab.scss */
-.courses .team-block {
-  padding-top: 20px;
-}
