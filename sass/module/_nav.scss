@@ -5,8 +5,9 @@
   .nav-serv{
     transition: 0.5s;
     padding-top: 20px;
-    .courses:hover{
-      box-shadow: 0px 0px 5px 4px $primary-color!important;
+    a .course:hover{
+      text-shadow: 0px 3px 15px #fff!important;
+      color: #c2b5cc;
     }
   }
 }
@@ -38,7 +39,6 @@
 		}
 	}
   .nav-serv{
-    color: #fff;
     transition: 0.5s;
     padding-bottom: 10px;
     overflow-x: scroll;
@@ -48,13 +48,17 @@
 		}
     .course{
       float: left;
+      text-align: center;
       display: inline-block;
-      flex: 1;
-      padding-right: 8px;
       transition: 0.2s;
       cursor:pointer;
+      text-decoration: none;
+      flex: 1;
+      color: #fff;
+      transition: 0.2s;
       &:hover{
-        box-shadow: 0px 0px 5px 4px #703f90;
+        text-shadow: 0px 3px 15px #fff;
+        color: #c2b5cc;
       }
     }
   }
