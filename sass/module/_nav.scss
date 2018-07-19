@@ -6,8 +6,7 @@
     transition: 0.5s;
     padding-top: 20px;
     a .course:hover{
-      text-shadow: 0px 3px 15px #fff!important;
-      color: #c2b5cc;
+      transform: scale(1.2)!important;
     }
   }
 }
@@ -57,8 +56,7 @@
       color: #fff;
       transition: 0.2s;
       &:hover{
-        text-shadow: 0px 3px 15px #fff;
-        color: #c2b5cc;
+        transform: scale(1.2);
       }
     }
   }

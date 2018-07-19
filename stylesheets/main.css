@@ -70,56 +70,55 @@ a:hover {
 }
 /* line 8, ../sass/module/_nav.scss */
 .trans-back .nav-serv a .course:hover {
-  text-shadow: 0px 3px 15px #fff !important;
-  color: #c2b5cc;
+  transform: scale(1.2) !important;
 }
 
-/* line 15, ../sass/module/_nav.scss */
+/* line 14, ../sass/module/_nav.scss */
 .navbar {
   border-radius: 0px;
   box-shadow: 0px 0px 5px 1px #3f145b;
 }
 
-/* line 19, ../sass/module/_nav.scss */
+/* line 18, ../sass/module/_nav.scss */
 .navbar-inverse {
   background-color: #2f0e44;
   transition: 0.5s;
   border: none;
 }
-/* line 24, ../sass/module/_nav.scss */
+/* line 23, ../sass/module/_nav.scss */
 .navbar-inverse .navbar-brand {
   color: #fff;
   padding: 3px 10px;
 }
-/* line 27, ../sass/module/_nav.scss */
+/* line 26, ../sass/module/_nav.scss */
 .navbar-inverse .navbar-brand img {
   width: 45px;
 }
-/* line 30, ../sass/module/_nav.scss */
+/* line 29, ../sass/module/_nav.scss */
 .navbar-inverse .navbar-brand:hover {
   color: #fff;
 }
-/* line 34, ../sass/module/_nav.scss */
+/* line 33, ../sass/module/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
-/* line 36, ../sass/module/_nav.scss */
+/* line 35, ../sass/module/_nav.scss */
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #fff;
   background-color: #5b0791;
 }
-/* line 41, ../sass/module/_nav.scss */
+/* line 40, ../sass/module/_nav.scss */
 .navbar-inverse .nav-serv {
   transition: 0.5s;
   padding-bottom: 10px;
   overflow-x: scroll;
   display: flex;
 }
-/* line 46, ../sass/module/_nav.scss */
+/* line 45, ../sass/module/_nav.scss */
 .navbar-inverse .nav-serv::-webkit-scrollbar {
   display: none;
 }
-/* line 49, ../sass/module/_nav.scss */
+/* line 48, ../sass/module/_nav.scss */
 .navbar-inverse .nav-serv .course {
   float: left;
   text-align: center;
@@ -131,52 +130,51 @@ a:hover {
   color: #fff;
   transition: 0.2s;
 }
-/* line 59, ../sass/module/_nav.scss */
+/* line 58, ../sass/module/_nav.scss */
 .navbar-inverse .nav-serv .course:hover {
-  text-shadow: 0px 3px 15px #fff;
-  color: #c2b5cc;
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 767px) {
-  /* line 68, ../sass/module/_nav.scss */
+  /* line 66, ../sass/module/_nav.scss */
   .trans-back .nav-serv {
     padding-top: 10px;
   }
 
-  /* line 72, ../sass/module/_nav.scss */
+  /* line 70, ../sass/module/_nav.scss */
   .navbar-nav {
     background: #3f145b;
     margin: 0.5px -15px;
   }
 
-  /* line 76, ../sass/module/_nav.scss */
+  /* line 74, ../sass/module/_nav.scss */
   .navbar-inverse .navbar-collapse {
     border-color: transparent;
   }
 }
 @media screen and (max-width: 450px) {
-  /* line 81, ../sass/module/_nav.scss */
+  /* line 79, ../sass/module/_nav.scss */
   .trans-back .nav-serv {
     padding-top: 10px;
   }
 
-  /* line 84, ../sass/module/_nav.scss */
+  /* line 82, ../sass/module/_nav.scss */
   .navbar-inverse .nav-serv {
     width: 400px;
     overflow-x: scroll;
     white-space: nowrap;
     padding-left: 10px;
   }
-  /* line 89, ../sass/module/_nav.scss */
+  /* line 87, ../sass/module/_nav.scss */
   .navbar-inverse .nav-serv::-webkit-scrollbar {
     display: none;
   }
-  /* line 92, ../sass/module/_nav.scss */
+  /* line 90, ../sass/module/_nav.scss */
   .navbar-inverse .nav-serv .course {
     padding-right: 15px;
   }
 }
-/* line 98, ../sass/module/_nav.scss */
+/* line 96, ../sass/module/_nav.scss */
 .btn--md {
   border-radius: 50%;
   position: fixed;
@@ -184,11 +182,11 @@ a:hover {
   top: 50%;
   right: 0;
 }
-/* line 104, ../sass/module/_nav.scss */
+/* line 102, ../sass/module/_nav.scss */
 .btn--md:focus {
   outline: none;
 }
-/* line 107, ../sass/module/_nav.scss */
+/* line 105, ../sass/module/_nav.scss */
 .btn--md:active {
   outline: none;
 }
