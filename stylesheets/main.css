@@ -386,6 +386,27 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   color: #fff;
 }
 
+/* line 2, ../sass/module/_team.scss */
+.team h2 {
+  font-weight: bold;
+}
+/* line 5, ../sass/module/_team.scss */
+.team span {
+  font-style: italic;
+}
+/* line 8, ../sass/module/_team.scss */
+.team p {
+  padding: 10px 0;
+}
+/* line 11, ../sass/module/_team.scss */
+.team .social {
+  color: #3f145b;
+}
+/* line 14, ../sass/module/_team.scss */
+.team--member {
+  padding: 20px 0;
+}
+
 /* line 1, ../sass/module/_gallery.scss */
 .gallery--item {
   position: relative;
