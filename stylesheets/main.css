@@ -381,8 +381,9 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   padding: 20px 10px;
 }
 /* line 23, ../sass/module/_courses-tab.scss */
-.courses .syllabus .active {
+.courses .syllabus .panel-heading {
   background-color: #3f145b;
+  color: #fff;
 }
 
 /* line 1, ../sass/module/_gallery.scss */
