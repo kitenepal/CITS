@@ -20,8 +20,9 @@
 		padding: 20px 10px;
 	}
 	.syllabus{
-		.active{
+		.panel-heading{
 			background-color: $primary-color;
+			color: #fff;
 		}
 	}
 }
