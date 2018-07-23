@@ -40,11 +40,7 @@
   .nav-serv{
     transition: 0.5s;
     padding-bottom: 10px;
-    overflow-x: scroll;
     display: flex;
-    &::-webkit-scrollbar{
-					display: none;
-		}
     .course{
       float: left;
       text-align: center;
@@ -80,13 +76,7 @@
     padding-top: 10px;
   }
   .navbar-inverse .nav-serv{
-    width: 400px;
-    overflow-x: scroll;
-    white-space: nowrap;
-    padding-left: 10px;
-    &::-webkit-scrollbar{
-					display: none;
-		}
+    display: none;
     .course{
       padding-right: 15px;
     }
