@@ -1,0 +1,33 @@
+.students-tab{
+	padding: 40px 0;
+	.nav-tabs{
+		li a{
+			// color: $primary-color;
+			color: $primary-color;
+			&:hover{
+				color: $primary-color;
+			}
+		}
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+			color: $primary-color;
+			font-weight: bold;
+		}
+		.tab-content{
+			.tab-pane{
+				padding: 20px 0;
+			}
+		}
+		&--item{
+			padding: 10px;
+			// background-color: #f7f7f7;
+			border-radius: 10px;
+			margin-bottom: 30px;
+			transition: 0.2s;
+			&:hover{
+				-webkit-box-shadow: 0px 2px 10px 0px rgba(201,201,201,1);
+			-moz-box-shadow: 0px 2px 10px 0px rgba(201,201,201,1);
+			box-shadow: 0px 2px 10px 0px rgba(201,201,201,1);
+			}
+		}
+}

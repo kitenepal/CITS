@@ -407,6 +407,41 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
   padding: 20px 0;
 }
 
+/* line 1, ../sass/module/_students.scss */
+.students-tab {
+  padding: 40px 0;
+}
+/* line 4, ../sass/module/_students.scss */
+.students-tab .nav-tabs li a {
+  color: #3f145b;
+}
+/* line 7, ../sass/module/_students.scss */
+.students-tab .nav-tabs li a:hover {
+  color: #3f145b;
+}
+/* line 12, ../sass/module/_students.scss */
+.students-tab .nav-tabs > li.active > a, .students-tab .nav-tabs > li.active > a:focus, .students-tab .nav-tabs > li.active > a:hover {
+  color: #3f145b;
+  font-weight: bold;
+}
+/* line 17, ../sass/module/_students.scss */
+.students-tab .tab-content .tab-pane {
+  padding: 20px 0;
+}
+/* line 21, ../sass/module/_students.scss */
+.students-tab--item {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: 0.2s;
+}
+/* line 27, ../sass/module/_students.scss */
+.students-tab--item:hover {
+  -webkit-box-shadow: 0px 2px 10px 0px #c9c9c9;
+  -moz-box-shadow: 0px 2px 10px 0px #c9c9c9;
+  box-shadow: 0px 2px 10px 0px #c9c9c9;
+}
+
 /* line 1, ../sass/module/_gallery.scss */
 .gallery--item {
   position: relative;
